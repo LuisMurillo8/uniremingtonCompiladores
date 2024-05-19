@@ -1,1 +1,1 @@
-/** Aqui encuentras las actividades de la materia compiladores de Uniremington **/
+/** En este repositorio estaran las actividades de la materia Compiladores de la universidad Uniremington**/
