@@ -1,1 +1,1 @@
-/** Aqui se observara actividades de la materia compiladores de Uniremington **/
+/** Aqui encuentras las actividades de la materia compiladores de Uniremington **/
