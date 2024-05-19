@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de Hola Mundo con addEventListener</title>
+</head>
+<body>
+
+<button id="boton">Haz clic aquí</button>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Seleccionar el botón por su ID
+    const boton = document.getElementById("boton");
+
+    // Agregar un event listener para el evento 'click'
+    boton.addEventListener("click", function() {
+        // Mostrar "Hola Mundo" en la consola del navegador
+        console.log("¡Hola Mundo!");
+        // También podrías mostrar "Hola Mundo" en una alerta:
+        // alert("¡Hola Mundo!");
+    });
+});
+</script>
+
+</body>
+</html>
