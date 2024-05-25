@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analizador Léxico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Analizador Léxico</h1>
+      <textarea
+        id="inputCode"
+        placeholder="Introduce una línea de código..."
+      ></textarea>
+      <button id="buttonAnalizar">Analizar</button>
+      <!-- <div id="output"></div> -->
+      <!--? analisis Léxico -->
+      <div id="outputLexico" class="output">
+        <h2>Resultado del Análisis Léxico</h2>
+        <div id="outputLexico2"></div>
+      </div>
+      <!--? analisis Sintáctico -->
+      <div id="outputSintactico" class="output">
+        <h2>Resultado del Análisis Sintáctico</h2>
+        <!-- El Elemento HTML <pre> (o Texto HTML Preformateado) representa texto preformateado -->
+        <pre id="outputSintactico2"></pre>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
